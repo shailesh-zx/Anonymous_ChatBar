@@ -39,7 +39,7 @@ You can copy the entire block below and paste it into your terminal:
 
 ```bash
 # 1. Clone the repository and open the folder
-git clone [https://github.com/shailesh-zx/Anonymous_ChatBar.git](https://github.com/shailesh-zx/Anonymous_ChatBar.git)
+git clone https://github.com/shailesh-zx/Anonymous_ChatBar.git
 cd Anonymous_ChatBar
 
 # 2. Give execution permission to both scripts
