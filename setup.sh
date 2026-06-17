@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "Installing Please Wait..."
+echo "Installing Please Wait...."
 
 # To Ignore Error
 export DEBIAN_FRONTEND=noninteractive
