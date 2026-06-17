@@ -11,7 +11,9 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    height: 100dvh; /* मॉडर्न मोबाइल ब्राउज़र्स के लिए */
     color: #fff;
+    overflow: hidden; /* ताकि पूरा पेज फालतू स्क्रॉल न हो */
 }
 
 .chat-container {
@@ -126,6 +128,7 @@ body {
 @media (max-width: 600px) {
     .chat-container {
         height: 100vh;
+        height: 100dvh; /* यहाँ भी 100dvh सेट करें */
         border-radius: 0;
     }
 }
