@@ -11,9 +11,9 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    height: 100dvh; /* मॉडर्न मोबाइल ब्राउज़र्स के लिए */
+    height: 100dvh; /* मॉडर्न मोबाइल ब्राउज़र्स के लिए फिक्स */
     color: #fff;
-    overflow: hidden; /* ताकि पूरा पेज फालतू स्क्रॉल न हो */
+    overflow: hidden; /* बैकग्राउंड स्क्रॉलिंग रोकने के लिए */
 }
 
 .chat-container {
@@ -128,7 +128,7 @@ body {
 @media (max-width: 600px) {
     .chat-container {
         height: 100vh;
-        height: 100dvh; /* यहाँ भी 100dvh सेट करें */
+        height: 100dvh; /* मोबाइल के एड्रेस बार के लिए फिक्स */
         border-radius: 0;
     }
 }
